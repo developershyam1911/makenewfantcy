@@ -56,8 +56,8 @@ const teamMembers = [
 
 const Friendship = () => {
   return (
-    <div className="container-fluid team py-5">
-      <div className="container py-5">
+    <div className="container-fluid team pt-5">
+      <div className="container pt-5">
         <div className="text-center mx-auto mb-5" style={{ maxWidth: "800px" }}>
           <p className="fs-4 text-uppercase text-primary">Specialist</p>
           <h1 className="display-4 mb-4">Top Friendship Specialist</h1>
@@ -75,7 +75,7 @@ const Friendship = () => {
               slidesPerView: 3,
             },
           }}
-          className="team-carousel"
+          className=""
         >
           {teamMembers.map((member, index) => (
             <SwiperSlide key={index} className="team-item">

@@ -1,5 +1,5 @@
 "use client";
-
+import "./header.css";
 import Image from "next/image"; // Import for optimized image handling
 import Link from "next/link";
 import { useState } from "react";
@@ -75,10 +75,11 @@ const Header = () => {
             >
               {/* Use Image component for better performance in Next.js */}
               <Image
+                className="my-logo"
                 src="/img/logo.png" // Make sure this path is correct in your public folder
                 alt="Logo"
-                height={90}
-                width={90}
+                height={70}
+                width={70}
               />
               {/* <h1 className="text-primary display-4">Sparlex</h1> */}
             </Link>
@@ -89,7 +90,7 @@ const Header = () => {
               data-bs-target="#navbarCollapse"
               onClick={() => setToggle(!toggle)}
             >
-              <MdOutlineMenu size={25} className=" text-primary" />
+              <MdOutlineMenu size={22} className=" text-primary" />
               {/* <span className="fa fa-bars text-primary"></span> */}
             </button>
             <div

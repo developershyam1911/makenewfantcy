@@ -12,7 +12,6 @@ export default function Home() {
       <Slider />
       <AboutUs />
       <AboutServices />
-      {/* <Services /> */}
       <Contact />
       <Packages />
       <Friendship />
