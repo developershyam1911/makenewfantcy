@@ -2,7 +2,6 @@
 
 import AboutServices from "@/components/AboutServices";
 import Contact from "@/components/Contact";
-import Services from "@/components/Services";
 
 const page = () => {
   return (
