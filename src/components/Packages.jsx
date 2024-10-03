@@ -40,25 +40,14 @@ const plans = [
       "Foot & Nail Care",
     ],
   },
-  // {
-  //   price: 199,
-  //   planName: "Most Plan",
-  //   services: [
-  //     "Full Body Massage",
-  //     "Deep Tissue Massage",
-  //     "Hot Stone Massage",
-  //     "Tissue Body Polish",
-  //     "Foot & Nail Care",
-  //   ],
-  // },
 ];
 
 const Packages = () => {
   return (
     <>
-      <div class="text-center mx-auto my-5" style={{ maxWidth: "800px" }}>
-        <p class="fs-4 text-uppercase text-primary">Our Packages</p>
-        <h1 class="display-4 mb-4">Let's See Our Package</h1>
+      <div className="text-center mx-auto my-5" style={{ maxWidth: "800px" }}>
+        <p className="fs-4 text-uppercase text-primary">Our Packages</p>
+        <h1 className="display-4 mb-4">Let's See Our Package</h1>
       </div>
       <div className="container-fluid pricing py-5">
         <div className="container py-5">
@@ -112,12 +101,6 @@ const Packages = () => {
                         {service}
                       </p>
                     ))}
-                    {/* <a
-                 href="#"
-                 className="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4"
-               >
-                 Order Now
-               </a> */}
                   </div>
                 </div>
               </SwiperSlide>

@@ -1,5 +1,3 @@
-// components/AboutServices.js
-
 import React from "react";
 
 const AboutServices = () => {
