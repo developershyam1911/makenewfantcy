@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   FaRegCopyright,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { MdOutlineMenu } from "react-icons/md";
 const Header = () => {
@@ -134,13 +135,13 @@ const Header = () => {
                 </Link> */}
               </div>
               <div className="d-flex align-items-center flex-nowrap pt-xl-0">
-                <Link
-                  href="tel:+917248664262"
-                  className="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4 ms-4"
-                  onClick={() => setToggle(!toggle)}
+                <a
+                  className="btn rounded-pill py-2 px-4 me-4"
+                  href="https://wa.me/+917248664262"
+                  style={{ backgroundColor: "green", color: "white" }}
                 >
-                  Contact Us
-                </Link>
+                  <FaWhatsapp size={24} /> Whatsapp
+                </a>
               </div>
             </div>
           </nav>

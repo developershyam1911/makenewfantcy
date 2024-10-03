@@ -5,8 +5,9 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 // Define an array of slides
 const slidesData = [
@@ -101,13 +102,21 @@ const Slider = () => {
                     {slide.description}
                   </p>
                   <div className="d-flex align-items-center justify-content-center">
-                    <a
+                    {/* <a
                       className="btn rounded-pill py-2 px-4 me-4"
                       href="https://wa.me/+917248664262"
                       style={{ backgroundColor: "green", color: "white" }}
                     >
                       <FaWhatsapp size={30} /> Whatsapp
-                    </a>
+                    </a> */}
+                    <Link
+                      href="https://web.telegram.org/a/"
+                      className="btn btn-primary-outline-0 rounded-pill py-2 px-4 ms-4"
+                      onClick={() => setToggle(!toggle)}
+                      style={{ backgroundColor: "#229ED9" }}
+                    >
+                      <FaTelegram size={24} className="text-light" /> Telegram
+                    </Link>
                   </div>
                 </div>
               </div>

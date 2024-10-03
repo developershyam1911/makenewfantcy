@@ -55,7 +55,8 @@ const Packages = () => {
             pagination={{
               dynamicBullets: true,
             }}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
+            autoplay={{ delay: 1000, disableOnInteraction: false }}
             spaceBetween={30}
             slidesPerView={1}
             breakpoints={{

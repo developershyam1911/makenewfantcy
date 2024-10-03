@@ -12,6 +12,7 @@ const Contact = () => {
     name: "",
     email: "",
     mobno: "",
+    price: "",
     message: "",
     date: "",
   });
@@ -28,18 +29,20 @@ const Contact = () => {
   // Handle form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, mobno, message, date } = formData;
+    const { name, email, mobno, message, date, price } = formData;
     if (
       name !== "" &&
       email !== "" &&
       mobno !== "" &&
       message !== "" &&
+      price !== "" &&
       date !== ""
     ) {
       try {
         await setDoc(doc(init.db, "enquiry", uuidv4()), {
           name,
           email,
+          price,
           mobno,
           message,
           date,
@@ -50,6 +53,7 @@ const Contact = () => {
           email: "",
           mobno: "",
           message: "",
+          price: "",
           date: "",
         });
         toast.success("Your enquiry send successfully.");
@@ -114,6 +118,18 @@ const Contact = () => {
                       required
                     />
                   </div>
+                  <div className="col-lg-12">
+                    <input
+                      type="text"
+                      name="price"
+                      value={formData.price}
+                      onChange={handleChange}
+                      className="form-control py-3 border-white bg-transparent text-white"
+                      placeholder="Package"
+                      required
+                    />
+                  </div>
+
                   <div className="col-lg-12">
                     <textarea
                       name="message"
