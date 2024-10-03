@@ -82,7 +82,7 @@ const Services = () => {
                     <>
                       <div className="col-4">
                         <div className="services-img d-flex align-items-center justify-content-center rounded">
-                          <img
+                          <Image
                             src={service.imgSrc}
                             className="img-fluid rounded"
                             alt=""
@@ -118,7 +118,7 @@ const Services = () => {
                       </div>
                       <div className="col-4">
                         <div className="services-img d-flex align-items-center justify-content-center rounded">
-                          <img
+                          <Image
                             src={service.imgSrc}
                             className="img-fluid rounded"
                             alt=""

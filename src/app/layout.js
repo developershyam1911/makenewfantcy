@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/css/style.css" rel="stylesheet" />
         <link rel="icon" href={process.env.NEXT_PUBLIC_FAVICON} />
+        <title>Make New Fantacy</title>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />

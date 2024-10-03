@@ -6,12 +6,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { FaWhatsapp } from "react-icons/fa";
+import Image from "next/image";
 
 // Define an array of slides
 const slidesData = [
   {
     id: 1,
-    imgSrc: "img/carousel-3.jpg",
+    imgSrc: "/img/carousel-3.jpg",
     heading: "Experience Unforgettable Adventures with Make New Fantasy",
     subHeading: "Unlock New Social Experiences and Live Boldly",
     description:
@@ -23,7 +24,7 @@ const slidesData = [
   },
   {
     id: 2,
-    imgSrc: "img/carousel-2.jpg",
+    imgSrc: "/img/carousel-2.jpg",
     heading: "Live a Life Full of Style and Sophistication",
     subHeading: "Discover Exclusive Social Opportunities",
     description:
@@ -35,7 +36,7 @@ const slidesData = [
   },
   {
     id: 3,
-    imgSrc: "img/carousel-1.jpg",
+    imgSrc: "/img/carousel-1.jpg",
     heading: "Create Memorable Moments with New Friends",
     subHeading: "Build Meaningful Connections and Enjoy Every Moment",
     description:
@@ -47,7 +48,7 @@ const slidesData = [
   },
   {
     id: 4,
-    imgSrc: "img/carousel-1.jpg",
+    imgSrc: "/img/carousel-1.jpg",
     heading: "Elevate Your Social Life with Make New Fantasy",
     subHeading: "Join a Network of Elite and Fun-loving People",
     description:
@@ -75,10 +76,12 @@ const Slider = () => {
         {sortedSlides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div className="carousel-item active">
-              <img
+              <Image
                 src={slide.imgSrc}
                 className="img-fluid"
                 alt={`Slide ${slide.id}`}
+                width={800} // Add your desired width
+                height={400} // Add your desired height
               />
               <div className="carousel-caption">
                 <div className="p-3" style={{ maxWidth: "900px" }}>

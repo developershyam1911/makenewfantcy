@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 // Team data array
 const teamMembers = [
@@ -79,10 +80,12 @@ const Friendship = () => {
           {teamMembers.map((member, index) => (
             <SwiperSlide key={index} className="team-item">
               <div className="team-img rounded-top">
-                <img
+                <Image
                   src={member.image}
                   className="img-fluid w-100 rounded-top bg-light"
                   alt={member.name}
+                  height={400}
+                  width={250}
                 />
               </div>
               <div className="team-text rounded-bottom text-center p-4">
