@@ -1,4 +1,3 @@
-"use client";
 import AboutServices from "@/components/AboutServices";
 import AboutUs from "@/components/AboutUs";
 import Image from "next/image";

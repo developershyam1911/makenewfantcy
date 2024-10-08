@@ -1,5 +1,3 @@
-"use client";
-
 import AboutServices from "@/components/AboutServices";
 import Packages from "@/components/Packages";
 

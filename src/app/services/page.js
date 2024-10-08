@@ -1,5 +1,3 @@
-"use client";
-
 import AboutServices from "@/components/AboutServices";
 import Contact from "@/components/Contact";
 
