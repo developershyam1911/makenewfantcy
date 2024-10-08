@@ -119,15 +119,17 @@ const Contact = () => {
                     />
                   </div>
                   <div className="col-lg-12">
-                    <input
-                      type="text"
+                    <select
                       name="price"
                       value={formData.price}
                       onChange={handleChange}
-                      className="form-control py-3 border-white bg-transparent text-white"
-                      placeholder="Package"
-                      required
-                    />
+                      className="form-control py-3 border-white bg-transparent "
+                    >
+                      <option selected>Choose Plan</option>
+                      <option value="1999">1999 (Basic Plan)</option>
+                      <option value="2999">2999 (Family Plan)</option>
+                      <option value="4999">4999 (VIP Plan)</option>
+                    </select>
                   </div>
 
                   <div className="col-lg-12">

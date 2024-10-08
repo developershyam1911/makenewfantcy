@@ -3,6 +3,39 @@
 import AboutServices from "@/components/AboutServices";
 import Contact from "@/components/Contact";
 
+export async function generateMetadata() {
+  return {
+    title:
+      "Our Services | Make New Fantasy - Friendship & Social Experiences Across India",
+    description:
+      "Discover the range of services offered by Make New Fantasy, including friendship club memberships, social engagement experiences, and exclusive playboy jobs. Our services are available across India, designed to enhance your social life.",
+    keywords: [
+      "Make New Fantasy services",
+      "friendship services India",
+      "playboy jobs",
+      "friendship club memberships",
+      "social connections",
+      "friendship experiences",
+      "social engagement",
+      "lifestyle enhancement",
+      "India-wide friendship services",
+      "unique social experiences",
+    ],
+    icons: {
+      icon: "/img/favicon.png",
+      shortcut: "/img/favicon.png",
+      apple: "/img/favicon.png",
+    },
+    openGraph: {
+      title:
+        "Our Services | Make New Fantasy - Friendship & Social Experiences Across India",
+      description:
+        "Discover the range of services offered by Make New Fantasy, including friendship club memberships, social engagement experiences, and exclusive playboy jobs. Our services are available across India, designed to enhance your social life.",
+      images: "/img/favicon.png",
+    },
+  };
+}
+
 const page = () => {
   return (
     <>

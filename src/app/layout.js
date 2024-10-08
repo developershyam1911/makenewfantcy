@@ -19,20 +19,20 @@ const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
 
 export async function generateMetadata() {
   return {
-    title: "Make New Fantasy | Your Gateway to Friendship and Play",
+    title: "Make New Fantasy - Friendship Club | Meeting for Just 1999/-",
     description:
-      "Explore Make New Fantasy, where friendship meets adventure. Join us for playful experiences and exciting connections designed to enhance your social life.",
+      "Register at Make New Fantasy Club and get the Madam's phone number and meeting details within 10 minutes. Enjoy a premium friendship experience for just 1999/-.",
     keywords: [
       "Make New Fantasy",
-      "friendship services",
+      "friendship club",
+      "affordable friendship plans",
       "playboy jobs",
-      "social connections",
-      "adventure experiences",
-      "fun and play",
-      "friendship activities",
-      "social engagement",
+      "social connection",
+      "friendship meetings",
       "lifestyle enhancement",
-      "creative friendships",
+      "social engagement",
+      "Khushbu Friendship Club alternative",
+      "fun and friendship",
     ],
     icons: {
       icon: "/img/favicon.png",
@@ -40,9 +40,9 @@ export async function generateMetadata() {
       apple: "/img/favicon.png",
     },
     openGraph: {
-      title: "Make New Fantasy | Your Gateway to Friendship and Play",
+      title: "Make New Fantasy - Friendship Club | Meeting for Just 1999/-",
       description:
-        "Explore Make New Fantasy, where friendship meets adventure. Join us for playful experiences and exciting connections designed to enhance your social life.",
+        "Register at Make New Fantasy Club and get the Madam's phone number and meeting details within 10 minutes. Enjoy a premium friendship experience for just 1999/-.",
       images: "/img/favicon.png",
     },
   };

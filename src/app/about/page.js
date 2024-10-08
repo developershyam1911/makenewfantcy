@@ -3,6 +3,37 @@ import AboutServices from "@/components/AboutServices";
 import AboutUs from "@/components/AboutUs";
 import Image from "next/image";
 
+export async function generateMetadata() {
+  return {
+    title: "About Us | Make New Fantasy - Friendship & Social Connections",
+    description:
+      "Learn more about Make New Fantasy, the leading platform for building friendships and creating exciting social connections. Discover how we enhance your social life with unique friendship experiences.",
+    keywords: [
+      "About Make New Fantasy",
+      "friendship club",
+      "social connections",
+      "playboy jobs",
+      "friendship services",
+      "social engagement",
+      "lifestyle enhancement",
+      "unique friendship experiences",
+      "about friendship platform",
+      "build social connections",
+    ],
+    icons: {
+      icon: "/img/favicon.png",
+      shortcut: "/img/favicon.png",
+      apple: "/img/favicon.png",
+    },
+    openGraph: {
+      title: "About Us | Make New Fantasy - Friendship & Social Connections",
+      description:
+        "Learn more about Make New Fantasy, the leading platform for building friendships and creating exciting social connections. Discover how we enhance your social life with unique friendship experiences.",
+      images: "/img/favicon.png",
+    },
+  };
+}
+
 const page = () => {
   return (
     <>
