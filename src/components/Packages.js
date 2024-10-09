@@ -9,35 +9,34 @@ import "swiper/css/pagination";
 const plans = [
   {
     price: 1999,
-    planName: "Basic Plan",
+    planName: "Standard",
     services: [
-      "Full Body Massage",
-      "Deep Tissue Massage",
-      "Hot Stone Massage",
-      "Tissue Body Polish",
-      "Foot & Nail Care",
+      " 10 Clients in a Month",
+      "Earning Upto 15-20k/Client",
+      "Service at Your Nearest Location as per your convenience",
+      // "Tissue Body Polish",
+      // "Foot & Nail Care",
     ],
   },
   {
     price: 2999,
-    planName: "Family Plan",
+    planName: "Silver",
     services: [
-      "Full Body Massage",
-      "Deep Tissue Massage",
-      "Hot Stone Massage",
-      "Tissue Body Polish",
-      "Foot & Nail Care",
+      " 20 Clients in a Month",
+      "Earning Upto 15-20k/Client",
+      "Service at Your Nearest Location as per your convenience (Hotel)",
+      "Invition for Grand events on every alternate month organized by company",
+      // "Foot & Nail Care",
     ],
   },
   {
     price: 4999,
-    planName: "VIP Plan",
+    planName: "Golden",
     services: [
-      "Full Body Massage",
-      "Deep Tissue Massage",
-      "Hot Stone Massage",
-      "Tissue Body Polish",
-      "Foot & Nail Care",
+      "15 Local+10 NRI Clients/Month",
+      "Earning Upto 25-30k/Client",
+      "Service at anywhere in india as per your convenience (Hotel)",
+      "Invition for Grand events organized by company on every alternative month",
     ],
   },
 ];
@@ -51,45 +50,19 @@ const Packages = () => {
       </div>
       <div className="container-fluid pricing py-5">
         <div className="container py-5">
-          <Swiper
-            pagination={{
-              dynamicBullets: true,
-            }}
-            modules={[Pagination, Autoplay]}
-            autoplay={{ delay: 1000, disableOnInteraction: false }}
-            spaceBetween={30}
-            slidesPerView={1}
-            breakpoints={{
-              640: {
-                slidesPerView: 1,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 3,
-              },
-            }}
-            className="pricing-carousel"
-          >
+          <div className="row">
             {plans.map((plan, index) => (
-              <SwiperSlide key={index} className="pricing-item">
+              <div className="pricing-item mb-3 col-md-4">
                 <div className="pricing-content rounded">
                   <div className="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
                     <h1 className="display-4 mb-0">
                       <small
                         className="align-top text-muted"
-                        style={{ fontSize: "22px", lineHeight: "45px" }}
+                        style={{ fontSize: "18px", lineHeight: "40px" }}
                       >
                         &#8377;
                       </small>
                       {plan.price}
-                      <small
-                        className="text-muted"
-                        style={{ fontSize: "16px", lineHeight: "40px" }}
-                      >
-                        /Mo
-                      </small>
                     </h1>
                     <h5 className="text-primary text-uppercase m-0">
                       {plan.planName}
@@ -104,9 +77,9 @@ const Packages = () => {
                     ))}
                   </div>
                 </div>
-              </SwiperSlide>
+              </div>
             ))}
-          </Swiper>
+          </div>
         </div>
       </div>
     </>

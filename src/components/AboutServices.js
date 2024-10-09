@@ -3,17 +3,17 @@ import React from "react";
 const AboutServices = () => {
   return (
     <div className="container mt-5">
-      <h2 className="text-center  mb-4">Our Exclusive Services</h2>
+      <h2 className="text-center  mb-4">Our Elite Services</h2>
       <div className="row">
         {/* Service 1 */}
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Exclusive Companionship</h5>
+              <h5 className="card-title">Exclusive Friendship Companionship</h5>
               <p className="card-text">
-                Enjoy the company of a sophisticated companion for special
-                events, travel, or private gatherings, tailored to your
-                preferences.
+                Engage in meaningful connections with charming companions,
+                designed to make your moments more joyful, relaxing, and
+                memorable.
               </p>
             </div>
           </div>
@@ -23,10 +23,11 @@ const AboutServices = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Personalized Travel Companions</h5>
+              <h5 className="card-title">Playboy Services</h5>
               <p className="card-text">
-                Experience luxury travel with the perfect companion, enhancing
-                your journey with elegance and charm.
+                Enjoy the company of refined and well-mannered men, offering a
+                variety of experiences to meet your needs, from casual outings
+                to intimate engagements.
               </p>
             </div>
           </div>
@@ -36,11 +37,11 @@ const AboutServices = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Event Accompaniment</h5>
+              <h5 className="card-title">Travel Companions</h5>
               <p className="card-text">
-                Make a statement at social events, corporate functions, or
-                high-profile gatherings with a companion who reflects your
-                style.
+                Enhance your travels with an engaging companion who will make
+                your journeys more enjoyable and memorable, whether for business
+                or leisure.
               </p>
             </div>
           </div>
@@ -50,10 +51,11 @@ const AboutServices = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Private Lifestyle Consultation</h5>
+              <h5 className="card-title">Event Companionship</h5>
               <p className="card-text">
-                Offering consultations to understand your needs and preferences
-                for creating a bespoke experience.
+                Attend high-profile events or social gatherings with the perfect
+                companion, making sure you stand out while enjoying great
+                company.
               </p>
             </div>
           </div>
@@ -63,10 +65,10 @@ const AboutServices = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Discreet Social Engagements</h5>
+              <h5 className="card-title">Discreet & Private Interactions</h5>
               <p className="card-text">
-                Engage in meaningful conversations and memorable moments with
-                discretion and privacy as top priorities.
+                Engage in personal, discreet interactions that prioritize your
+                privacy and provide the companionship you desire.
               </p>
             </div>
           </div>
@@ -76,10 +78,11 @@ const AboutServices = () => {
         <div className="col-md-6 col-lg-4 mb-4">
           <div className="card h-100 text-dark">
             <div className="card-body">
-              <h5 className="card-title">Romantic Dinner Dates</h5>
+              <h5 className="card-title">Exclusive Dinner Dates</h5>
               <p className="card-text">
-                Savor an evening of fine dining with an enchanting companion,
-                creating a memorable experience in an elegant setting.
+                Enjoy a luxurious dinner with a sophisticated companion,
+                creating a perfect evening filled with great conversation and
+                elegant surroundings.
               </p>
             </div>
           </div>
