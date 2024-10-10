@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import firstBanner from "../../public/img/shani/66.jpg";
+import secondBanner from "../../public/img/shani/g_2.jpg";
 const AboutUs = () => {
   return (
     <section className="about-us py-5">
@@ -12,10 +15,211 @@ const AboutUs = () => {
                   className="text-center mb-4"
                   style={{ fontSize: "2rem", fontWeight: "600" }}
                 >
-                  Join Our Elite Friendship & Playboy Network | Premier
-                  Companionship Services Across India
+                  Greetings from makenewfantasy.com, the world's most
+                  sought-after, sexiest, and dedicated gigolo play boy provider.
                   {/* | Contact Us for More Info +91 07248664262 */}
                 </h4>
+                <div
+                  className=""
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                >
+                  <div className="col-md-7">
+                    {" "}
+                    <p
+                      className=""
+                      style={{
+                        fontSize: "1.25rem",
+                        lineHeight: "1.75rem",
+                        // textAlign: "justify",
+                      }}
+                    >
+                      We are certain to exceed your expectations, whether they
+                      are to have a classy dinner date with the person of your
+                      dreams or simply to go away from your own space and be
+                      pampered.
+                      <br />
+                      We extend a hearty welcome to all of you to the thrilling
+                      world of makenewfantasy, a sophisticated, individualized
+                      play boy employment agency for the most intense and lusty
+                      individuals who want nothing less than the highest caliber
+                      of sex. We've been in the Indian adult market for decades
+                      as one of the most reputable companies for Gigolo call guy
+                      jobs.
+                      <br />
+                      We would be happy to welcome any charming and attractive
+                      man who is searching for the perfect play boy career
+                      opportunity. Remember that our ardent clientele will
+                      embrace him in his underwear!
+                      <br />
+                    </p>
+                  </div>
+                  <div className="col-md-5">
+                    {" "}
+                    <Image
+                      src={firstBanner}
+                      className="img-fluid"
+                      alt="make new fantasy"
+                      width={150} // Add your desired width
+                      height={100} // Add your desired height
+                      style={{
+                        height: "350px",
+                        width: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <h5
+                  className="text-center my-4"
+                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
+                >
+                  In short, who are we?
+                </h5>
+                <div
+                  className=""
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                >
+                  <div className="col-md-6">
+                    <Image
+                      src={secondBanner}
+                      className="img-fluid"
+                      alt="make new fantasy"
+                      width={150} // Add your desired width
+                      height={100} // Add your desired height
+                      style={{
+                        height: "350px",
+                        width: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <p
+                      className=""
+                      style={{
+                        fontSize: "1.25rem",
+                        lineHeight: "1.75rem",
+                      }}
+                    >
+                      We provide all of our female clients in various regions of
+                      the nation with male escort services that are 100%
+                      authentic and vetted. Major cities include Mumbai, Delhi,
+                      Hyderabad, Jaipur, Gujarat, and many more provide our
+                      services.
+                      <br />
+                      In addition to providing individual male escort services,
+                      we also invite everyone to become a member of our Play Boy
+                      Friendship Club. Mature milfs looking for their ideal mate
+                      and 100% confirmed Gigolo play boy jobs make up our
+                      Friendship Club.
+                      <br />
+                      We’re running this business for more than a decade and
+                      maintaining a client base of 1000+ ladies. As a
+                      well-reputed Gigolo call boy agency, we follow all the
+                      quality checks before entertaining any female client and
+                      aspiring call boy. Our team members maintain utter
+                      transparency with the clients and playboys; nothing is
+                      secret and hidden.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+
+                <h5
+                  className="text-center my-4"
+                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
+                >
+                  How Can Future Gigolo Call Boy Job Agency Players Join Our
+                  Playboy Team ?
+                </h5>
+
+                <ul
+                  className="list-unstyled"
+                  style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
+                >
+                  <li className="mb-2">
+                    Join the gigolo playboy agency makenewfantasy if you're
+                    searching for a real playboy job opening. You can give us
+                    your information over our WhatsApp number or by filling out
+                    the registration form on the website.
+                  </li>
+                  <li className="mb-2">
+                    Please allow us to properly review each candidate's
+                    documents, photos, and details when you share them, usually
+                    within 24 to 48 hours.
+                  </li>
+                  <li className="mb-2">
+                    We'll give you a call to discuss the interview process and
+                    registration costs if your profile is accepted. We will
+                    perform the medical examination and create your ID card if
+                    you are prepared to pay the registration cost.
+                  </li>
+                  <li className="mb-2">
+                    After everything is finished, our play boy employment agency
+                    will start contacting you to make reservations in the
+                    locations of your choice. The registered Gigolo playboys are
+                    free to call off the meetings whenever they like.
+                  </li>
+                </ul>
+                <h5
+                  className="text-center my-4"
+                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
+                >
+                  What Benefits Does Our Gigolo Play Boy Employment Agency Offer
+                  Men ?
+                </h5>
+                <ul
+                  className="list-unstyled"
+                  style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
+                >
+                  <li className="mb-2">
+                    <strong>Continuous Flow of Conferences:</strong>You should
+                    start and end your search at makenewfantasy if you're
+                    seeking for the top play boy job opening in India. The
+                    ability to assist five to ten clients a week is the main
+                    benefit of joining our Gigolo playboy agency. The demand
+                    rises to three bookings per week minimum during the vacation
+                    period.
+                  </li>
+                  <li className="mb-2">
+                    <strong>
+                      Work according to your terms and conditions:
+                    </strong>
+                    We give the information to both parties before deciding on a
+                    meeting place. You are able to call off the meeting if you
+                    would rather not work with any customer. Gigolo playboys and
+                    our female clients are never forced to work against their
+                    will or under duress.
+                  </li>
+                  <li className="mb-2">
+                    <strong>Entered Are Only Verified Profiles:</strong> Every
+                    female client and Gigolo playboy is confirmed by our team
+                    members. Under no circumstances can a person with a criminal
+                    record work as a call boy for our organization. Only
+                    authentic and confirmed women will be encountered by our
+                    Gigolos playboys.
+                  </li>
+
+                  <li className="mb-2">
+                    <strong>Your Privacy Is Our Top Priority:</strong> We never
+                    give other agencies or outside parties access to the private
+                    contact information of our female clients or Gigolo
+                    playboys. You don't need to be concerned about privacy
+                    because all of your personal information is protected and
+                    secured.
+                  </li>
+                </ul>
                 <p
                   className=""
                   style={{
@@ -24,163 +228,10 @@ const AboutUs = () => {
                     // textAlign: "justify",
                   }}
                 >
-                  Welcome to <strong>Make New Fantasy</strong>, a leading
-                  platform where charismatic men connect with successful women
-                  seeking meaningful companionship and enjoyable experiences.
-                  Our platform offers an exclusive blend of online friendship
-                  and playboy services, providing opportunities for women to
-                  engage with soft-spoken, charming companions who bring joy and
-                  comfort to every interaction. Whether it's a deep
-                  conversation, a fun friendship, or an intimate moment, our
-                  services are designed to make every experience special.
+                  That being said, there's no reason to sit around and deal with
+                  money troubles when you could be on your way to becoming the
+                  most attractive man in the eyes of countless hungry milfs.
                 </p>
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                  }}
-                >
-                  At <strong>Make New Fantasy</strong>, we understand the
-                  importance of privacy, discretion, and professionalism. Every
-                  aspect of our service is designed to ensure the utmost
-                  confidentiality and satisfaction of our clients. We take pride
-                  in creating meaningful connections that go beyond traditional
-                  boundaries, offering you the chance to enjoy life’s most
-                  intimate experiences with the right companion by your side.
-                </p>
-                <h5
-                  className="text-center my-4"
-                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
-                >
-                  Why Choose Make New Fantasy?
-                </h5>
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                  }}
-                >
-                  We offer personalized companionship services, ensuring our
-                  clients feel valued, cherished, and deeply satisfied with the
-                  quality of our offerings. Our playboys are selected for their
-                  ability to create a relaxed, enjoyable atmosphere, perfect for
-                  women looking for memorable moments and high-quality
-                  companionship.
-                </p>
-                <ul
-                  className="list-unstyled"
-                  style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
-                >
-                  <li className="mb-2">
-                    <strong>Exclusive Companionship:</strong> Our playboys offer
-                    more than just company—they create a space where you can
-                    feel completely at ease, whether you want to talk, relax, or
-                    explore romantic experiences.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Tailored Experiences:</strong> Every interaction is
-                    customized to meet your personal desires, from casual
-                    outings to intimate moments of connection.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Luxury & Elegance:</strong> Our playboys provide
-                    companionship for various occasions, including trips,
-                    events, and leisure, making sure each moment is filled with
-                    delight.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Discreet & Professional:</strong> our privacy is our
-                    priority. All services are provided with the utmost
-                    confidentiality and respect.
-                  </li>
-                </ul>
-                <h5
-                  className="text-center my-4"
-                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
-                >
-                  Playboy Services for Wealthy Women Across India
-                </h5>
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                  }}
-                >
-                  We take pride in offering top-tier playboy services for
-                  wealthy women across India. Our playboys are known for their
-                  refined manners, attentiveness, and ability to bring joy to
-                  every situation. Whether you need a companion for a business
-                  trip, a fun evening, or a vacation, our playboys ensure you
-                  feel pampered and stress-free.
-                </p>
-                <ul
-                  className="list-unstyled"
-                  style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
-                >
-                  <li className="mb-2">
-                    <strong>Charming & Soft-Spoken Playboys:</strong>Our
-                    playboys are trained to create an environment where you feel
-                    completely comfortable, relaxed, and appreciated.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Companionship for Every Occasion:</strong> You can
-                    hire our playboys for vacations, business trips, or any
-                    event where you want an engaging and pleasant companion.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Unforgettable Moments:</strong> From romance to
-                    friendship, our playboys will fill your time with joy and
-                    unforgettable memories.
-                  </li>
-                </ul>
-                <h5
-                  className="text-center my-4"
-                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
-                >
-                  Work as a Playboy Companion | Job Opportunities Across India
-                </h5>
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                  }}
-                >
-                  At <strong>Make New Fantasy</strong>, we offer exciting
-                  opportunities for men who want to work as professional
-                  companions, including playboy job roles for high-profile
-                  clients. Our platform connects you with successful,
-                  independent women who seek refined, charming, and respectful
-                  companions.
-                </p>
-                <ul
-                  className="list-unstyled"
-                  style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
-                >
-                  <li className="mb-2">
-                    <strong>Engage with Elite Clients:</strong>Our playboys
-                    cater to successful, affluent women who appreciate
-                    discretion and sophistication.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Flexible Working Hours:</strong> Choose assignments
-                    that fit your schedule, whether it's a few hours or extended
-                    companionship for travel.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Attractive Income:</strong> Earn a competitive
-                    income while offering companionship that brings joy and
-                    relaxation to your clients.
-                  </li>
-                  <li className="mb-2">
-                    <strong>Confidential & Professional:</strong> We ensure that
-                    all interactions are handled with the highest level of
-                    professionalism and respect for privacy.
-                  </li>
-                </ul>
                 {/* 
                 <h5
                   className="text-center my-4"
@@ -188,21 +239,7 @@ const AboutUs = () => {
                 >
                   Join Us Today
                 </h5>
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                    // textAlign: "justify",
-                  }}
-                >
-                  We invite you to explore the possibilities that come with
-                  personalized companionship. Discover how{" "}
-                  <strong>Make New Fantasy</strong>
-                  can transform your experiences into lasting memories. Contact
-                  us today to learn more about our services and how to get
-                  started.
-                </p>
+               
                 <p
                   className=""
                   style={{

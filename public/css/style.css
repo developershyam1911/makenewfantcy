@@ -182,7 +182,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0.5));
+
+    background: rgba(0, 0, 0, 0.4);
     background-size: cover;
 }
 
@@ -220,7 +221,7 @@
 
 
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/appointment-background.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/shani/9.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

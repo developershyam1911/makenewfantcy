@@ -13,7 +13,7 @@ import Link from "next/link";
 const slidesData = [
   {
     id: 1,
-    imgSrc: "/img/carousel-3.jpg",
+    imgSrc: "/img/shani/6.jpeg",
     heading: "Experience Unforgettable Adventures with Make New Fantasy",
     subHeading: "Unlock New Social Experiences and Live Boldly",
     description:
@@ -25,7 +25,7 @@ const slidesData = [
   },
   {
     id: 2,
-    imgSrc: "/img/carousel-2.jpg",
+    imgSrc: "/img/shani/2.jpeg",
     heading: "Live a Life Full of Style and Sophistication",
     subHeading: "Discover Exclusive Social Opportunities",
     description:
@@ -37,7 +37,7 @@ const slidesData = [
   },
   {
     id: 3,
-    imgSrc: "/img/carousel-1.jpg",
+    imgSrc: "/img/shani/4.png",
     heading: "Create Memorable Moments with New Friends",
     subHeading: "Build Meaningful Connections and Enjoy Every Moment",
     description:
@@ -49,7 +49,7 @@ const slidesData = [
   },
   {
     id: 4,
-    imgSrc: "/img/carousel-1.jpg",
+    imgSrc: "/img/shani/1.jpg",
     heading: "Elevate Your Social Life with Make New Fantasy",
     subHeading: "Join a Network of Elite and Fun-loving People",
     description:
@@ -87,7 +87,7 @@ const Slider = () => {
               <div className="carousel-caption">
                 <div className="p-3" style={{ maxWidth: "900px" }}>
                   <h4
-                    className="text-dark text-uppercase mb-3"
+                    className="text-light text-uppercase mb-3"
                     style={{ fontWeight: "600" }}
                   >
                     {slide.heading}
@@ -96,7 +96,7 @@ const Slider = () => {
                     {slide.}
                   </h1> */}
                   <p
-                    className="mx-md-5 fs-4 px-4 mb-5 text-dark"
+                    className="mx-md-5 fs-4 px-4 mb-5 text-light"
                     style={{ fontSize: "17px!important" }}
                   >
                     {slide.description}

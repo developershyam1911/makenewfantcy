@@ -16,7 +16,7 @@ export default function Home() {
       <AboutServices />
       <Contact />
       <Packages />
-      <Friendship />
+      {/* <Friendship /> */}
       <Map />
     </>
   );

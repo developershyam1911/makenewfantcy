@@ -198,7 +198,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="counter-quantity">
-                  <span className="text-white fs-2 fw-bold">50</span>
+                  <span className="text-white fs-2 fw-bold">5K</span>
                   <span className="h1 fw-bold text-white">+</span>
                 </div>
               </div>
@@ -218,7 +218,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="counter-quantity">
-                  <span className="text-white fs-2 fw-bold">32</span>
+                  <span className="text-white fs-2 fw-bold">4K</span>
                   <span className="h1 fw-bold text-white">+</span>
                 </div>
               </div>
