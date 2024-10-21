@@ -1,13 +1,19 @@
 const { ENDPOINT } = require("@/constant");
-const axios = require("axios");
 
 async function blogList() {
   try {
-    const response = await axios.get(`${ENDPOINT}/api/blogs`);
-    return response.data.res;
+    const response = await fetch(`${ENDPOINT}/api/blogs`);
+
+    // Check if the response is not okay (status not in the range 200-299)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json(); // Parse JSON response
+    return data.res;
   } catch (error) {
-    console.error("Error fetching datassss:", error);
-    throw error;
+    console.error("Error fetching data:", error);
+    throw error; // Rethrow the error after logging
   }
 }
 
