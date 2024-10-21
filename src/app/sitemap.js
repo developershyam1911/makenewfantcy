@@ -3,12 +3,10 @@ const { ENDPOINT } = require("@/constant");
 // async function blogList() {
 //   try {
 //     const response = await fetch(`${ENDPOINT}/api/blogs`);
-
 //     // Check if the response is not okay (status not in the range 200-299)
 //     if (!response.ok) {
 //       throw new Error(`HTTP error! Status: ${response.status}`);
 //     }
-
 //     const data = await response.json(); // Parse JSON response
 //     return data.res;
 //   } catch (error) {
