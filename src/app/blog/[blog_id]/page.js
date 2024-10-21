@@ -45,7 +45,10 @@ export async function generateStaticParams() {
     }));
     return myData;
   } catch (error) {
-    console.error("Error fetching Data:", error);
+    console.error(
+      "Error fetching Data:",
+      error.response ? error.response.data : error.message
+    );
     return [];
   }
 }
