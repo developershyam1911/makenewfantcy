@@ -4,8 +4,6 @@ const axios = require("axios");
 async function blogList() {
   try {
     const response = await axios.get(`${ENDPOINT}/api/blogs`);
-    // console.log("fuck", response.data.res);
-
     return response.data.res;
   } catch (error) {
     console.error("Error fetching datassss:", error);
