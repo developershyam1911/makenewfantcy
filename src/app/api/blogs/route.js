@@ -7,9 +7,9 @@ export async function GET() {
     const querySnapshot = await getDocs(collection(init.db, "blog"));
     const res = await Promise.all(
       querySnapshot.docs.map(async (doc) => ({
-        title: doc.data().title,
-        slug: doc.data().slug,
-        time: doc.data().createdAt,
+        title: doc?.data()?.title,
+        slug: doc?.data()?.slug,
+        time: doc?.data()?.createdAt,
       }))
     );
     return NextResponse.json({ res });

@@ -6,7 +6,7 @@ async function blogList() {
     const response = await axios.get(`${ENDPOINT}/api/blogs`);
     return response?.data?.res;
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error("Error fetching datassss:", error);
     throw error;
   }
 }
@@ -15,7 +15,7 @@ export default async function sitemap() {
   const blogs = await blogList();
   const blogsEntries = blogs?.map((item) => {
     return {
-      url: `${ENDPOINT}/api/blogs/${item?.slug}`,
+      url: `${ENDPOINT}/blog/${item?.slug}`,
       lastModified: new Date(item?.time?.seconds * 1000),
     };
   });

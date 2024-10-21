@@ -10,6 +10,8 @@ export async function generateMetadata({ params }) {
       throw new Error("Network response was not ok.");
     }
     const item = response.data.res;
+    console.log(item);
+
     return {
       title: item[0]?.title,
       description: item[0]?.desc,
