@@ -3,13 +3,14 @@
 import Image from "next/image";
 import firstBanner from "../../public/img/shani/66.jpg";
 import secondBanner from "../../public/img/shani/g_2.jpg";
+
 const AboutUs = () => {
   return (
     <section className="about-us py-5">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12 col-md-10">
-            <div className="">
+            <div>
               <div className="text-dark" style={{ textAlign: "justify" }}>
                 <h4
                   className="text-center mb-4"
@@ -17,25 +18,13 @@ const AboutUs = () => {
                 >
                   Greetings from makenewfantasy.com, the world's most
                   sought-after, sexiest, and dedicated gigolo play boy provider.
-                  {/* | Contact Us for More Info +91 07248664262 */}
                 </h4>
-                <div
-                  className=""
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                  }}
-                >
-                  <div className="col-md-7">
-                    {" "}
+                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                  <div className="col-md-7 mb-3 mb-md-0">
                     <p
-                      className=""
                       style={{
                         fontSize: "1.25rem",
                         lineHeight: "1.75rem",
-                        // textAlign: "justify",
                       }}
                     >
                       We are certain to exceed your expectations, whether they
@@ -59,13 +48,12 @@ const AboutUs = () => {
                     </p>
                   </div>
                   <div className="col-md-5">
-                    {" "}
                     <Image
                       src={firstBanner}
                       className="img-fluid"
                       alt="make new fantasy"
-                      width={150} // Add your desired width
-                      height={100} // Add your desired height
+                      width={150}
+                      height={100}
                       style={{
                         height: "350px",
                         width: "100%",
@@ -81,22 +69,14 @@ const AboutUs = () => {
                 >
                   In short, who are we?
                 </h5>
-                <div
-                  className=""
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                  }}
-                >
-                  <div className="col-md-6">
+                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                  <div className="col-md-6 mb-3 mb-md-0">
                     <Image
                       src={secondBanner}
                       className="img-fluid"
                       alt="make new fantasy"
-                      width={150} // Add your desired width
-                      height={100} // Add your desired height
+                      width={150}
+                      height={100}
                       style={{
                         height: "350px",
                         width: "100%",
@@ -106,7 +86,6 @@ const AboutUs = () => {
                   </div>
                   <div className="col-md-6">
                     <p
-                      className=""
                       style={{
                         fontSize: "1.25rem",
                         lineHeight: "1.75rem",
@@ -172,6 +151,7 @@ const AboutUs = () => {
                     free to call off the meetings whenever they like.
                   </li>
                 </ul>
+
                 <h5
                   className="text-center my-4"
                   style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
@@ -179,12 +159,13 @@ const AboutUs = () => {
                   What Benefits Does Our Gigolo Play Boy Employment Agency Offer
                   Men ?
                 </h5>
+
                 <ul
                   className="list-unstyled"
                   style={{ fontSize: "1.2rem", lineHeight: "1.6rem" }}
                 >
                   <li className="mb-2">
-                    <strong>Continuous Flow of Conferences:</strong>You should
+                    <strong>Continuous Flow of Conferences:</strong> You should
                     start and end your search at makenewfantasy if you're
                     seeking for the top play boy job opening in India. The
                     ability to assist five to ten clients a week is the main
@@ -195,7 +176,7 @@ const AboutUs = () => {
                   <li className="mb-2">
                     <strong>
                       Work according to your terms and conditions:
-                    </strong>
+                    </strong>{" "}
                     We give the information to both parties before deciding on a
                     meeting place. You are able to call off the meeting if you
                     would rather not work with any customer. Gigolo playboys and
@@ -210,7 +191,6 @@ const AboutUs = () => {
                     authentic and confirmed women will be encountered by our
                     Gigolos playboys.
                   </li>
-
                   <li className="mb-2">
                     <strong>Your Privacy Is Our Top Priority:</strong> We never
                     give other agencies or outside parties access to the private
@@ -220,40 +200,17 @@ const AboutUs = () => {
                     secured.
                   </li>
                 </ul>
+
                 <p
-                  className=""
                   style={{
                     fontSize: "1.25rem",
                     lineHeight: "1.75rem",
-                    // textAlign: "justify",
                   }}
                 >
                   That being said, there's no reason to sit around and deal with
                   money troubles when you could be on your way to becoming the
                   most attractive man in the eyes of countless hungry milfs.
                 </p>
-                {/* 
-                <h5
-                  className="text-center my-4"
-                  style={{ fontSize: "2rem", lineHeight: "2.5rem" }}
-                >
-                  Join Us Today
-                </h5>
-               
-                <p
-                  className=""
-                  style={{
-                    fontSize: "1.25rem",
-                    lineHeight: "1.75rem",
-                    // textAlign: "justify",
-                  }}
-                >
-                  At <strong>Make New Fantasy</strong>, we are committed to
-                  enhancing your lifestyle with moments of luxury and elegance.
-                  Discover the difference that personalized companionship can
-                  make and allow us to create an experience that is truly unique
-                  to you.
-                </p> */}
               </div>
             </div>
           </div>

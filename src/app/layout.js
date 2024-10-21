@@ -26,24 +26,27 @@ export async function generateMetadata() {
       "Make New Fantasy",
       "friendship club",
       "affordable friendship plans",
-      "playboy jobs",
+      "playboy jobs near me",
+      "playboy jobs ",
+      "gigolo jobs",
+      "gigolo jobs near me",
       "social connection",
       "friendship meetings",
       "lifestyle enhancement",
       "social engagement",
-      "Khushbu Friendship Club alternative",
+      "friendship Club alternative",
       "fun and friendship",
     ],
     icons: {
-      icon: "/img/favicon.png",
-      shortcut: "/img/favicon.png",
-      apple: "/img/favicon.png",
+      icon: "/img/logo.png",
+      shortcut: "/img/logo.png",
+      apple: "/img/logo.png",
     },
     openGraph: {
       title: "Make New Fantasy - Friendship Club | Meeting for Just 1999/-",
       description:
         "Register at Make New Fantasy Club and get the Madam's phone number and meeting details within 10 minutes. Enjoy a premium friendship experience for just 1999/-.",
-      images: "/img/favicon.png",
+      images: "/img/logo.png",
     },
   };
 }

@@ -130,9 +130,9 @@ const Header = () => {
                 >
                   Price
                 </Link>
-                {/* <Link href="/blog" className="nav-item nav-link">
+                <Link href="/blog" className="nav-item nav-link">
                   Blog
-                </Link> */}
+                </Link>
               </div>
               <div className="d-flex align-items-center flex-nowrap pt-xl-0">
                 <a

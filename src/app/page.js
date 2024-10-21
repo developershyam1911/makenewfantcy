@@ -7,6 +7,7 @@ import AboutUs from "@/components/AboutUs";
 import AboutServices from "@/components/AboutServices";
 import WhatsppBtn from "@/components/WhatsppBtn";
 import TelegramBtn from "@/components/TelegramBtn";
+import BlogHome from "@/components/BlogHome";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <AboutServices />
       <Contact />
       <Packages />
-      {/* <Friendship /> */}
+      <BlogHome />
       <Map />
     </>
   );
