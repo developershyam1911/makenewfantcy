@@ -14,7 +14,7 @@ export default async function sitemap() {
   const blogs = await blogList();
   const blogsEntries = blogs?.map((item) => {
     return {
-      url: `https://makenewfantasy.com/blogs/${item?.slug}`,
+      url: `https://makenewfantasy.com/api/blogs/${item?.slug}`,
       lastModified: new Date(item?.time?.seconds * 1000),
     };
   });
