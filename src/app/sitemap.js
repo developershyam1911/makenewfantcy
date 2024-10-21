@@ -1,9 +1,8 @@
-import { ENDPOINT } from "@/constant";
 const axios = require("axios");
 
 async function blogList() {
   try {
-    const response = await axios.get(`${ENDPOINT}/api/blogs`);
+    const response = await axios.get(`https://makenewfantasy.com/api/blogs`);
     return response.data.res;
   } catch (error) {
     console.error("Error fetching data:", error);
@@ -16,30 +15,30 @@ export default async function sitemap() {
 
   const blogsEntries = blogs?.map((item) => {
     return {
-      url: `${ENDPOINT}/blog/${item?.slug}`,
+      url: `https://makenewfantasy.com/blog/${item?.slug}`,
       lastModified: new Date(item?.time?.seconds * 1000),
     };
   });
 
   return [
     {
-      url: `${ENDPOINT}`,
+      url: `https://makenewfantasy.com`,
       lastModified: "2023-11-30T18:30:00.000Z",
     },
     {
-      url: `${ENDPOINT}/about`,
+      url: `https://makenewfantasy.com/about`,
       lastModified: "2023-11-30T18:30:00.000Z",
     },
     {
-      url: `${ENDPOINT}/services`,
+      url: `https://makenewfantasy.com/services`,
       lastModified: "2023-11-30T18:30:00.000Z",
     },
     {
-      url: `${ENDPOINT}/price`,
+      url: `https://makenewfantasy.com/price`,
       lastModified: "2023-11-30T18:30:00.000Z",
     },
     {
-      url: `${ENDPOINT}/blog`,
+      url: `https://makenewfantasy.com/blog`,
       lastModified: "2023-11-30T18:30:00.000Z",
     },
     ...blogsEntries,

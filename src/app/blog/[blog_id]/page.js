@@ -1,12 +1,13 @@
 import SingleBlog from "@/components/SingleBlog";
-import { ENDPOINT } from "@/constant";
 import axios from "axios";
 import React from "react";
 
 export async function generateMetadata({ params }) {
   const { slug } = params;
   try {
-    const response = await axios.get(`${ENDPOINT}/api/blogs/${slug}`);
+    const response = await axios.get(
+      `https://makenewfantasy.com/api/blogs/${slug}`
+    );
     if (response.status !== 200) {
       throw new Error("Network response was not ok.");
     }
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }) {
 
 export async function generateStaticParams() {
   try {
-    const response = await axios.get(`${ENDPOINT}/api/blogs`);
+    const response = await axios.get(`https://makenewfantasy.com/api/blogs`);
     if (response.status !== 200) {
       throw new Error("Network response was not ok.");
     }
