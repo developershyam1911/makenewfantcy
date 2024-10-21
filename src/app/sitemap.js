@@ -4,7 +4,9 @@ const axios = require("axios");
 async function blogList() {
   try {
     const response = await axios.get(`${ENDPOINT}/api/blogs`);
-    return response?.data?.res;
+    // console.log("fuck", response.data.res);
+
+    return response.data.res;
   } catch (error) {
     console.error("Error fetching datassss:", error);
     throw error;
@@ -13,10 +15,10 @@ async function blogList() {
 
 export default async function sitemap() {
   const blogs = await blogList();
-  const blogsEntries = blogs?.map((item) => {
+  const blogsEntries = blogs.map((item) => {
     return {
       url: `${ENDPOINT}/blog/${item?.slug}`,
-      lastModified: new Date(item?.time?.seconds * 1000),
+      lastModified: new Date(item.time?.seconds * 1000),
     };
   });
 
