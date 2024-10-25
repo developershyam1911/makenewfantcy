@@ -7,7 +7,7 @@ import { RiTelegramLine } from "react-icons/ri";
 const TelegramBtn = () => {
   return (
     <div className="telegram-btn">
-      <a href="https://wa.me/+917248664262" class="">
+      <a href="https://t.me/7248664262" class="">
         <RiTelegramLine size={50} className="text-white" />
       </a>
     </div>

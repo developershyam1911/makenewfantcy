@@ -110,7 +110,7 @@ const Slider = () => {
                       <FaWhatsapp size={30} /> Whatsapp
                     </a> */}
                     <Link
-                      href="https://web.telegram.org/a/"
+                      href="https://t.me/7248664262"
                       className="btn btn-primary-outline-0 rounded-pill py-2 px-4 ms-4"
                       onClick={() => setToggle(!toggle)}
                       style={{ backgroundColor: "#229ED9" }}

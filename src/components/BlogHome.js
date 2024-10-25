@@ -11,7 +11,7 @@ const BlogHome = () => {
   const getBlog = async () => {
     setLoading(true);
     const mycollection = collection(init.db, "blog");
-    let q = query(mycollection, orderBy("createdAt", "desc"), limit(3));
+    let q = query(mycollection, orderBy("createdAt", "desc"), limit(4));
     const data = await getDocs(q);
     setData(data.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
     setLoading(false);
@@ -46,7 +46,10 @@ const BlogHome = () => {
                       ).toLocaleDateString()}
                     </small>
                   </p>
-                  <Link href="/" className="btn btn-primary">
+                  <Link
+                    href={`blog/${item.slug}`}
+                    className="btn btn-primary text-white  "
+                  >
                     Read More
                   </Link>
                 </div>
